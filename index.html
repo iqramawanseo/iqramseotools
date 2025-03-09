@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compress your images online with our professional image compression tool. Optimize JPEG, PNG, and WebP images for web use with different compression levels.">
+    <meta name="keywords" content="image compression, optimize images, image optimizer, online image compressor, JPEG, PNG, WebP">
+    <meta name="author" content="Iqram">
+    <title>Professional Image Compression Tool</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Background Wallpaper -->
+    <div class="background"></div>
+
+    <!-- Floating Heading -->
+    <div class="floating-heading">
+        <h1>Image Compression Tool</h1>
+        <p>Optimize your images for web use with ease.</p>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Ad Section -->
+        <section id="ad-section">
+            <div id="adsterra-ad">
+                <!-- Insert Adsterra Ad Unit Code Here -->
+            </div>
+        </section>
+
+        <!-- Compression Tool -->
+        <section id="compression-tool">
+            <div id="drop-zone">
+                <p>Drag & Drop an image here or <span id="browse-link">browse</span></p>
+                <input type="file" id="image-input" accept="image/*">
+            </div>
+            <div class="options">
+                <label for="compression-level">Compression Level:</label>
+                <select id="compression-level">
+                    <option value="0.1">Low (90% quality)</option>
+                    <option value="0.5" selected>Medium (50% quality)</option>
+                    <option value="0.9">High (10% quality)</option>
+                </select>
+                <button id="compress-btn">Compress Image</button>
+            </div>
+            <div id="progress-bar">
+                <div id="progress"></div>
+            </div>
+            <div id="file-size-info">
+                <p>Original Size: <span id="original-size">-</span></p>
+                <p>Compressed Size: <span id="compressed-size">-</span></p>
+                <p>Compression Percentage: <span id="compression-percentage">-</span></p>
+            </div>
+            <div id="image-container">
+                <img id="compressed-image" src="" alt="Compressed Image" loading="lazy">
+            </div>
+            <a id="download-link" href="#" download="compressed-image.jpg">Download Compressed Image</a>
+        </section>
+
+        <!-- Ad Section Bottom -->
+        <section id="ad-section-bottom">
+            <div id="google-adsense-ad">
+                <!-- Insert Google AdSense Ad Unit Code Here -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Made by Iqram</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
